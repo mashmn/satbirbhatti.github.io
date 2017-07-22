@@ -85,15 +85,19 @@ section{
 	width: 100%;
 }
 .container{
-	padding-top: 100px;
+	padding-top: 70px;
+}
+.contactme-slider {
+	float: right;
 }
 footer {
 	background-color: #404040;
 	color: #FCFCFC;
 	font-size: 15px;
 	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 5px;
+	padding-bottom: 100px;
+	margin-top: 5px;
 }
 footer a:link {
 	color: gray;
@@ -110,4 +114,66 @@ footer a:hover {
 footer a:active {
 	color: black;
 	text-decoration: none;
+}
+
+/* Floating Social Media Bar Style Starts Here */
+.fl-fl {
+  background: #000000;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 4px;
+  width: 190px;
+  position: fixed;
+  right: -160px;
+  z-index: 1000;
+  font: normal normal 10px Arial;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.fa {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 0;
+  width: 40px;
+  margin-left: 8px;
+}
+
+.fl-fl:hover {
+  right: 0;
+}
+
+.fl-fl a {
+  color: #fff !important;
+  text-decoration: none;
+  text-align: center;
+  line-height: 43px!important;
+  vertical-align: top!important;
+}
+
+.float-fb {
+  top: 160px;
+}
+
+.float-tw {
+  top: 215px;
+}
+
+.float-gp {
+  top: 270px;
+}
+
+.float-li {
+  top: 325px;
+}
+
+.float-em {
+  top: 380px;
+}
+
+.float-ph {
+  top: 435px;
 }
